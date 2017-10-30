@@ -1,0 +1,33 @@
+{
+  "name": "passport-coding-oauth",
+  "version": "0.1.0",
+  "description": "coding.net authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "coding",
+    "coding.net",
+    "auth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/villager10086/passport-coding-oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/villager10086/passport-coding-oauth/issues"
+  },
+  "author": {
+    "name": "villager10086",
+    "email": "chary0917@live.com"
+  },
+  "scripts": {
+    "test":"node_modules/.bin/mocha"
+  },
+  "license": "MIT",
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "^1.x.x"
+  },
+  "devDependencies": {
+    "mocha":"^4.0.1"
+  }
+}
