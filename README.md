@@ -56,7 +56,7 @@ application:
 ## Tests
 
     $ npm install --dev
-    $ npm test
+    $ npm test
 
 ## Credits
 
