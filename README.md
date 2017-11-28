@@ -1,6 +1,7 @@
 # passport-coding-oauth
 
 [![Build Status](https://travis-ci.org/villager10086/passport-coding-oauth.svg?branch=master)](https://travis-ci.org/villager10086/passport-coding-oauth)
+[![Coverage Status](https://coveralls.io/repos/github/villager10086/passport-coding-oauth/badge.svg?branch=master)](https://coveralls.io/github/villager10086/passport-coding-oauth?branch=master)
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Coding](https://Coding.net/) using the OAuth 2.0 API..
 

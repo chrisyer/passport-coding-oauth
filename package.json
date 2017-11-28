@@ -20,7 +20,9 @@
     "email": "chary0917@live.com"
   },
   "scripts": {
-    "test":"node_modules/.bin/mocha"
+    "test":"node_modules/.bin/mocha",
+    "cover": "istanbul cover node_modules/.bin/_mocha ",
+    "coveralls":"npm run cover -- --report lcovonly && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "license": "MIT",
   "main": "./lib",
@@ -28,6 +30,9 @@
     "passport-oauth2": "^1.x.x"
   },
   "devDependencies": {
-    "mocha":"^4.0.1"
+    "mocha":"^4.0.1",
+    "mocha-lcov-reporter":"^1.3.0",
+    "coveralls":"^3.0.0",
+    "istanbul": "0.4.5"
   }
 }
