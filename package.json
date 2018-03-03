@@ -1,6 +1,6 @@
 {
   "name": "passport-coding-oauth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "coding.net authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -10,13 +10,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/villager10086/passport-coding-oauth.git"
+    "url": "https://github.com/chrisyer/passport-coding-oauth.git"
   },
   "bugs": {
-    "url": "https://github.com/villager10086/passport-coding-oauth/issues"
+    "url": "https://github.com/chrisyer/passport-coding-oauth/issues"
   },
   "author": {
-    "name": "villager10086",
+    "name": "chrisyer",
     "email": "chary0917@live.com"
   },
   "scripts": {
